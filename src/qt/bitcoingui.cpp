@@ -308,12 +308,19 @@ void BitcoinGUI::createActions()
     addressBookAction->setCheckable(true);
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
+    
+    masternodeManagerAction = new QAction(QIcon(":/icons/masternodes"), tr("&Masternodes"), this);
+    masternodeManagerAction->setToolTip(tr("Show Master Nodes status and configure your nodes."));
+    masternodeManagerAction->setCheckable(true);
+    //tabGroup->addAction(masternodeManagerAction);   
 
     messageAction = new QAction(QIcon(":/icons/edit"), tr("&Messages"), this);
     messageAction->setToolTip(tr("View and Send Encrypted messages"));
     messageAction->setCheckable(true);
     tabGroup->addAction(messageAction);
 	
+
+
     mktAction = new QAction(QIcon(":/icons/explorer"), "Explorer", this);
     mktAction->setCheckable(true);
     mktAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
@@ -487,7 +494,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(sendCoinsAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
-    toolbar->addAction(masternodeManagerAction);
+    //toolbar->addAction(masternodeManagerAction);
 
     if (!fLiteMode){
         toolbar->addAction(messageAction);
@@ -957,11 +964,11 @@ void BitcoinGUI::clearWidgets()
 
 void BitcoinGUI::gotoMasternodeManagerPage()
 {
-    masternodeManagerAction->setChecked(true);
-    centralStackedWidget->setCurrentWidget(masternodeManagerPage);
+//    masternodeManagerAction->setChecked(true);
+//    centralStackedWidget->setCurrentWidget(masternodeManagerPage);
 
-    exportAction->setEnabled(false);
-    disconnect(exportAction, SIGNAL(triggered()), 0, 0);
+//    exportAction->setEnabled(false);
+//    disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
 
 void BitcoinGUI::gotoBlockBrowser()
@@ -1189,7 +1196,7 @@ void BitcoinGUI::changePassphrase()
 
 void BitcoinGUI::pioClicked()
 {
-    QDesktopServices::openUrl(QUrl("https://www.boxycoin.org"));
+    QDesktopServices::openUrl(QUrl("http://www.boxycoin.org"));
 }
 
 void BitcoinGUI::bitcointalkClicked()
