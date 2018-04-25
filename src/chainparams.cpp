@@ -62,7 +62,7 @@ public:
         pchMessageStart[2] = 0xa4;
         pchMessageStart[3] = 0xdc;
         vAlertPubKey = ParseHex("");
-        nDefaultPort = 21527;
+        nDefaultPort = 21523;
         nRPCPort = 21528;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
