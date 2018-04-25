@@ -32,7 +32,7 @@ improved security and advance stake integration (the first of its kind).
 | ---------------------- |:------------------|
 | Block Spacing          | 120 seconds       |
 | Staking Minimum Age    | 8 hours           |
-| Reward                 | 40% PoS / 60% MN  |
+| Reward                 | 1.3 BOXY          |
 | Max Supply             | 19 Million BOXY   |
 
 ## Channels
