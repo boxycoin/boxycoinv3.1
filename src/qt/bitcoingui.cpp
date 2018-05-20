@@ -1196,7 +1196,7 @@ void BitcoinGUI::changePassphrase()
 
 void BitcoinGUI::pioClicked()
 {
-    QDesktopServices::openUrl(QUrl("http://www.boxycoin.org"));
+    QDesktopServices::openUrl(QUrl("http://www.boxycoin.live"));
 }
 
 void BitcoinGUI::bitcointalkClicked()
