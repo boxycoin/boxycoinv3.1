@@ -39,7 +39,7 @@ improved security and advance stake integration (the first of its kind).
 | Specification | Value             |
 | ------------- |:------------------|
 | Bitcointalk   | [https://bitcointalk.org/index.php?topic=4279358](https://bitcointalk.org/index.php?topic=4279358)       |
-| Discord       | [Discord: https://discord.gg/HrHXURT](https://discord.gg/HrHXURT) |
+| Discord       | [https://discord.gg/HrHXURT](https://discord.gg/HrHXURT) |
 | Website       | [https://boxycoin.live](https://boxycoin.live) |
 | Explorer      | [http://boxy.blockxplorer.info/](http://boxy.boxyexplorer.info)
 | Source Code   | [https://github.com/boyroywax/boxycoin.git](https://github.com/boyroywax/boxycoin.git)
