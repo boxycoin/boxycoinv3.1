@@ -1,15 +1,14 @@
          __________ ________  ____  ________.___.
          \______   \\_____  \ \   \/  /\__  |   | 
-          |    |  _/ /   |   \ \     /  /   |   |  2017 Boxycoin/BOXY 
+          |    |  _/ /   |   \ \     /  /   |   |  2018 Boxycoin/BOXY 
           |    |   \/    |    \/     \  \____   |
           \________/\_________/___/\__\ /_______/                     
 
 BoxyCoin [BOXY] Source Code
 ================================
 
-http://www.boxycoin.org
+http://www.boxycoin.live
 
-http://www.boxy.online
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -39,12 +38,11 @@ improved security and advance stake integration (the first of its kind).
 
 | Specification | Value             |
 | ------------- |:------------------|
-| Bitcointalk   | [https://bitcointalk.org/index.php?topic=2401866.0](https://bitcointalk.org/index.php?topic=2401866.0)       |
-| Discord       | [https://discord.gg/6DSvyNV](https://discord.gg/6DSvyNV) |
-| Website       | [https://boxycoin.org](https://boxycoin.org) |
-| Explorer      | [https://explorer.boxy.space](http://boxy.online)
-| Reddit        | [http://www.reddit.com/r/Boxycoin](http://www.reddit.com/r/Boxycoin)
-| Source Code   | [http://www.github.com/boxycoin/boxycoin.git](http://www.github.com/boxycoin/boxycoin.git)
+| Bitcointalk   | [https://bitcointalk.org/index.php?topic=4279358](https://bitcointalk.org/index.php?topic=4279358)       |
+| Discord       | [Discord: https://discord.gg/HrHXURT](https://discord.gg/HrHXURT) |
+| Website       | [https://boxycoin.live](https://boxycoin.live) |
+| Explorer      | [http://boxy.blockxplorer.info/](http://boxy.boxyexplorer.info)
+| Source Code   | [https://github.com/boyroywax/boxycoin.git](https://github.com/boyroywax/boxycoin.git)
 
 
 License
