@@ -92,14 +92,7 @@ public:
         base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1,40);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "159.203.161.244"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "138.68.174.82"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "104.131.44.238"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "138.68.191.238"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "178.62.57.88"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "boxy.online"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "pool.boxy.online"));
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "electrum.boxy.online"));
+        vSeeds.push_back(CDNSSeedData("boxycoin.io", "boxycoin.live"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
