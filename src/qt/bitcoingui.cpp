@@ -521,7 +521,7 @@ void BitcoinGUI::createToolBars()
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
 {
     if(!fOnlyTor)
-    netLabel->setText("BOXNET");
+    netLabel->setText("BOXY-NET");
     else
     {
     if(!IsLimited(NET_TOR))
@@ -1043,7 +1043,7 @@ void BitcoinGUI::gotomktPage()
     overviewAction->setChecked(true);
     centralStackedWidget->setCurrentWidget(overviewPage);
 
-    QDesktopServices::openUrl(QUrl("http://boxy.online"));
+    QDesktopServices::openUrl(QUrl("https://boxy.blockxplorer.info"));
 
     exportAction->setEnabled(false);
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
@@ -1196,17 +1196,17 @@ void BitcoinGUI::changePassphrase()
 
 void BitcoinGUI::pioClicked()
 {
-    QDesktopServices::openUrl(QUrl("http://www.boxycoin.live"));
+    QDesktopServices::openUrl(QUrl("https://boxycoin.live"));
 }
 
 void BitcoinGUI::bitcointalkClicked()
 {
-    QDesktopServices::openUrl(QUrl("http://www.boxycoin.org/bct/"));
+    QDesktopServices::openUrl(QUrl("https://boxycoin.live"));
 }
 
 void BitcoinGUI::chainClicked()
 {
-    QDesktopServices::openUrl(QUrl("http://www.boxycoin.org/discord/"));
+    QDesktopServices::openUrl(QUrl("https://boxycoin.live"));
 }
 void BitcoinGUI::explorerClicked()
 {

@@ -1378,8 +1378,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation>Mined balance that has not yet matured</translation>
+        <source>Minted balance that has not yet matured</source>
+        <translation>Minted balance that has not yet matured</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -2488,8 +2488,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
-        <translation>Mined</translation>
+        <source>Minted</source>
+        <translation>Minted</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -2577,8 +2577,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
-        <translation>Mined</translation>
+        <source>Minted</source>
+        <translation>Minted</translation>
     </message>
     <message>
         <location line="+1"/>

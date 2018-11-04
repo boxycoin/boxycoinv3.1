@@ -92,14 +92,15 @@ public:
         base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1,40);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        vSeeds.push_back(CDNSSeedData("boxycoin.io", "boxycoin.live"));
+        vSeeds.push_back(CDNSSeedData("68.183.47.98", "209.97.145.150"));
+        vSeeds.push_back(CDNSSeedData("167.99.194.4", "104.248.72.185"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
         //strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         //strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         strDarksendPoolDummyAddress = "xq19GqFvajRrEdDHYRKGYjTsQfpV5jyipF";
-        nLastPOWBlock = 5000;
+        nLastPOWBlock = 165002;
         nPOSStartBlock = 1;
     }
 

@@ -1148,18 +1148,34 @@ void createConf()
 	srand(time(NULL));
 	ofstream pConf; 
 	pConf.open(GetConfigFile().generic_string().c_str());
-	const char* nodes =  "\'nrpcport=21524"
+	const char* nodes =  "\nrpcport=21524"
 						 "\nrpcallowip=127.0.0.1"
 						 "\ndaemon=1"
 						 "\nserver=1"
                                                  "\nlisten=1"
                                                  "\ntxindex=1"
                                                  "\nlistenonion=0"
-					         "\naddnode=159.203.161.244"
-						 "\naddnode=138.68.174.82"
-						 "\naddnode=104.131.44.238"
-						 "\naddnode=138.68.191.238"
-						 "\naddnode=178.62.57.88";
+					         "\naddnode=72.104.157.22"
+                                                 "\naddnode=172.104.142.196"
+                                                 "\naddnode=172.104.132.79"
+                                                 "\naddnode=85.90.245.118"
+                                                 "\naddnode=172.104.247.227"
+                                                 "\naddnode=139.162.142.222"
+                                                 "\naddnode=139.162.174.250"	
+                                                 "\naddnode=139.162.176.177"
+                                                 "\naddnode=139.162.146.217"
+                                                 "\naddnode=172.104.130.230"
+                                                 "\naddnode=139.162.144.223"
+                                                 "\naddnode=139.162.179.247"
+                                                 "\naddnode=139.162.147.31"
+                                                 "\naddnode=139.162.176.139"
+                                                 "\naddnode=139.162.174.7"
+                                                 "\naddnode=172.104.252.104"
+                                                 "\naddnode=139.162.162.192"
+                                                 "\naddnode=139.162.184.246"
+                                                 "\naddnode=128.199.211.125"
+                                                 "\naddnode=68.183.47.98"
+                                                 "\naddnode=167.99.194.4";
 						 
 	pConf   << std::string("rpcuser=")
  		+  randomStrGen(5)
