@@ -1370,7 +1370,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Minted balance that has not yet matured</source>
         <translation>Saldo recién minado que aún no está disponible.</translation>
     </message>
     <message>
@@ -2468,7 +2468,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Minado</translation>
     </message>
     <message>
@@ -2557,7 +2557,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Minado</translation>
     </message>
     <message>

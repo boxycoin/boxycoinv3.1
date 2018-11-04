@@ -1370,7 +1370,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Minted balance that has not yet matured</source>
         <translation>Le solde généré n&apos;est pas encore mature</translation>
     </message>
     <message>
@@ -2468,7 +2468,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Extrait</translation>
     </message>
     <message>
@@ -2557,7 +2557,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Extrait</translation>
     </message>
     <message>

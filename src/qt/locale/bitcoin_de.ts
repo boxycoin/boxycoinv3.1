@@ -1353,7 +1353,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Minted balance that has not yet matured</source>
         <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
     </message>
     <message>
@@ -2451,7 +2451,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Erarbeitet</translation>
     </message>
     <message>
@@ -2540,7 +2540,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Erarbeitet</translation>
     </message>
     <message>

@@ -1370,7 +1370,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Minted balance that has not yet matured</source>
         <translation>Balanta minata care nu s-a maturizat inca</translation>
     </message>
     <message>
@@ -2468,7 +2468,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Produs</translation>
     </message>
     <message>
@@ -2557,7 +2557,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Produs</translation>
     </message>
     <message>

@@ -129,7 +129,7 @@ padding: 10px;</string>
                <cursorShape>IBeamCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>Mined balance in watch-only addresses that has not yet matured</string>
+               <string>Minted balance in watch-only addresses that has not yet matured</string>
               </property>
               <property name="text">
                <string notr="true">0.000 000 00 BTC</string>
@@ -295,7 +295,7 @@ padding: 10px;</string>
                <cursorShape>IBeamCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>Mined balance that has not yet matured</string>
+               <string>Minted balance that has not yet matured</string>
               </property>
               <property name="text">
                <string notr="true">0.000 000 00 BTC</string>

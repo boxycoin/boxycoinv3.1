@@ -1374,7 +1374,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Minted balance that has not yet matured</source>
         <translation>Vyťažený zostatok, ktorý nebol ešte dozretý</translation>
     </message>
     <message>
@@ -2472,7 +2472,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Vyťažené</translation>
     </message>
     <message>
@@ -2561,7 +2561,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Minted</source>
         <translation>Vyťažené</translation>
     </message>
     <message>
